@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: squish
 title: Generic
 description: Lorem ipsum dolor est
-image: assets/images/Kaneki.jpeg
+image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
