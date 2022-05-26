@@ -1,8 +1,8 @@
 ---
-title: Squish Collector
+title: Konnect 4
 layout: landing
-description: 'Node/Express/MongoDB'
-image: assets/images/squishmallow.jpeg
+description: 'JavaScript/HTML/CSS'
+image: assets/images/NvS.jpeg
 nav-menu: true
 ---
 

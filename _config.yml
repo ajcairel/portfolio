@@ -1,16 +1,17 @@
 # site settings
-title: Alexander
-subtitle: Portolio
+title: My
+subtitle: Portfolio 
 email: alexanderjcairel@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+# description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Full stack software engineer with a background in project management <br /> 
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Alexander
 street_address:
 city: 
-state: CA
+state:
 zip_code: 
-country: United States of America
+country: San Francisco Bay Area
 phone: 
 
 # homepage tiles

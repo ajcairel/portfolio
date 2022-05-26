@@ -31,39 +31,16 @@
 			</section>
 			<section>
 				<div class="contact-method">
-					<ul class="icons">
-						{% for key_value in site.socials %}
-							{% if key_value[1] %}
-								<li>
-									<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-										<span class="label">{{ key_value[0] }}</span>
-									</a>
-								</li>
-							{% endif %}
-						{% endfor %}
-					</ul>
 					<span class="icon alt fa-phone"></span>
-					<h3>Socials</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+					<h3>Phone</h3>
+					<a href="tel:(201) 895-8813">(925)-580-5732</a>
 				</div>
-			<section>
-				<ul class="icons">
-					{% for key_value in site.socials %}
-						{% if key_value[1] %}
-							<li>
-								<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-									<span class="label">{{ key_value[0] }}</span>
-								</a>
-							</li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-			</section>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
+					<!-- <span class="icon alt fa-home"></span> -->
+					<span class="icon alt fa-map-pin"></span>
+					<h3>Location</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
@@ -90,21 +67,8 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 
 			</ul>
 		</div>
